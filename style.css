@@ -1,0 +1,1134 @@
+/* MacBook Air - 1 */
+
+position: relative;
+width: 1280px;
+height: 832px;
+
+background: #FFFFFF;
+
+
+/* HortaUrbana */
+
+position: absolute;
+width: 199px;
+height: 44px;
+left: 540px;
+top: 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 469px;
+height: 227px;
+left: 405px;
+top: 104px;
+
+background: #000000;
+border-radius: 30px;
+
+
+/* ALERTA ‼️ */
+
+position: absolute;
+width: 153px;
+height: 34px;
+left: 563px;
+top: 141px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+
+
+/* 3 canteiros precisam de rega hoje! */
+
+position: absolute;
+width: 424px;
+height: 31px;
+left: 428px;
+top: 227px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+/* idêntico à altura da caixa */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Novo Plantio */
+
+position: absolute;
+width: 189px;
+height: 29px;
+left: 545px;
+top: 686px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Lista de Canteiros */
+
+position: absolute;
+width: 149px;
+height: 62px;
+left: 958px;
+top: 666px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 242.82px;
+height: 250.32px;
+left: 126px;
+top: 416px;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 242.82px;
+height: 250.32px;
+left: 126px;
+top: 416px;
+
+background: #0E0557;
+
+
+/* image 1 */
+
+position: absolute;
+width: 146.69px;
+height: 146.69px;
+left: 173.2px;
+top: 451.61px;
+
+background: url(image.png);
+
+
+/* Group 2 */
+
+position: absolute;
+width: 242.82px;
+height: 250.32px;
+left: 519px;
+top: 416px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 242.82px;
+height: 250.32px;
+left: 519px;
+top: 416px;
+
+background: #0E0557;
+
+
+/* image 2 */
+
+position: absolute;
+width: 146.69px;
+height: 146.69px;
+left: 566.2px;
+top: 458.81px;
+
+background: url(image.png);
+
+
+/* Ver Mapa */
+
+position: absolute;
+width: 151px;
+height: 45px;
+left: 170px;
+top: 686px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 242.82px;
+height: 250.32px;
+left: 912px;
+top: 416px;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 242.82px;
+height: 250.32px;
+left: 912px;
+top: 416px;
+
+background: #0E0557;
+
+
+/* image 4 */
+
+position: absolute;
+width: 197.94px;
+height: 197.94px;
+left: 934.44px;
+top: 443.09px;
+
+background: url(image.png);
+
+
+/* Group 6 */
+
+position: absolute;
+width: 164px;
+height: 67px;
+left: 31px;
+top: 37px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 164px;
+height: 67px;
+left: 31px;
+top: 37px;
+
+background: #FF0000;
+border-radius: 30px;
+
+
+/* Sair */
+
+position: absolute;
+width: 58px;
+height: 36px;
+left: 84px;
+top: 53px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* MacBook Air - 5 */
+
+position: relative;
+width: 1280px;
+height: 832px;
+
+background: #FFFFFF;
+
+
+/* Bem Vindo à HortaUrbana */
+
+position: absolute;
+width: 513px;
+height: 48px;
+left: 383px;
+top: 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 782px;
+height: 92px;
+left: 249px;
+top: 294px;
+
+background: #ACAAAA;
+border-radius: 45px;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 782px;
+height: 92px;
+left: 249px;
+top: 478px;
+
+background: #ACAAAA;
+border-radius: 45px;
+
+
+/* Email: */
+
+position: absolute;
+width: 97px;
+height: 36px;
+left: 591px;
+top: 245px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #0E0557;
+
+
+
+/* Senha: */
+
+position: absolute;
+width: 117px;
+height: 41px;
+left: 581px;
+top: 425px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #0E0557;
+
+
+
+/* Login */
+
+position: absolute;
+width: 122px;
+height: 54px;
+left: 579px;
+top: 158px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Digite seu Email */
+
+position: absolute;
+width: 225px;
+height: 36px;
+left: 287px;
+top: 322px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #3C3C3C;
+
+
+
+/* Digite sua senha */
+
+position: absolute;
+width: 235px;
+height: 36px;
+left: 282px;
+top: 506px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #3C3C3C;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 313px;
+height: 85px;
+left: 483px;
+top: 673px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 313px;
+height: 85px;
+left: 483px;
+top: 673px;
+
+background: #91FF00;
+border-radius: 90px;
+
+
+/* Entrar */
+
+position: absolute;
+width: 137px;
+height: 42px;
+left: 571px;
+top: 694px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* MacBook Air - 2 */
+
+position: relative;
+width: 1280px;
+height: 832px;
+
+background: #FFFFFF;
+
+
+/* Ver Mapa */
+
+position: absolute;
+width: 238px;
+height: 56px;
+left: 521px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+
+
+/* image 6 */
+
+position: absolute;
+width: 112px;
+height: 112px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 1081px;
+height: 601px;
+left: 99px;
+top: 176px;
+
+background: #D9D9D9;
+
+
+/* MacBook Air - 3 */
+
+position: relative;
+width: 1280px;
+height: 832px;
+
+background: #FFFFFF;
+
+
+/* Cadastrar novo Canteiro */
+
+position: absolute;
+width: 612px;
+height: 78px;
+left: 334px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+
+
+/* image 5 */
+
+position: absolute;
+width: 117px;
+height: 116px;
+left: 47px;
+top: 63px;
+
+background: url(image.png);
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 782px;
+height: 92px;
+left: 249px;
+top: 187px;
+
+background: #ACAAAA;
+border-radius: 45px;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 782px;
+height: 92px;
+left: 249px;
+top: 355px;
+
+background: #ACAAAA;
+border-radius: 45px;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 782px;
+height: 92px;
+left: 249px;
+top: 517px;
+
+background: #ACAAAA;
+border-radius: 45px;
+
+
+/* Ex: Alface, Tomate... */
+
+position: absolute;
+width: 313px;
+height: 34px;
+left: 271px;
+top: 215px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #3C3C3C;
+
+
+
+/* Ex: Alface, Tomate... */
+
+position: absolute;
+width: 317px;
+height: 38px;
+left: 283px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #3C3C3C;
+
+
+
+/* Selecionar Data */
+
+position: absolute;
+width: 262px;
+height: 36px;
+left: 268px;
+top: 547px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #3C3C3C;
+
+
+
+/* image 7 */
+
+position: absolute;
+width: 92px;
+height: 93px;
+left: 903px;
+top: 516px;
+
+background: url(image.png);
+
+
+/* Nome do Canteiro */
+
+position: absolute;
+width: 295px;
+height: 40px;
+left: 492px;
+top: 145px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Tipo de Hortaliça */
+
+position: absolute;
+width: 257px;
+height: 38px;
+left: 523px;
+top: 314px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Data do Plantio */
+
+position: absolute;
+width: 224px;
+height: 39px;
+left: 528px;
+top: 487px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Group 4 */
+
+position: absolute;
+width: 488.7px;
+height: 153.54px;
+left: 396px;
+top: 653px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 488.7px;
+height: 153.54px;
+left: 396px;
+top: 653px;
+
+background: #91FF00;
+border-radius: 90px;
+
+
+/* CONFIRMAR PLANTIO */
+
+position: absolute;
+width: 325px;
+height: 34px;
+left: 477px;
+top: 713px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* image 8 */
+
+position: absolute;
+width: 92px;
+height: 92px;
+left: 925px;
+top: 355px;
+
+background: url(image.png);
+transform: rotate(-90deg);
+
+
+/* MacBook Air - 4 */
+
+position: relative;
+width: 1280px;
+height: 832px;
+
+background: #FFFFFF;
+
+
+/* Meus Canteiros */
+
+position: absolute;
+width: 388px;
+height: 58px;
+left: 446px;
+top: 28px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+
+
+/* image 6 */
+
+position: absolute;
+width: 114px;
+height: 114px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 275px;
+height: 89px;
+left: 355px;
+top: 156px;
+
+background: #000000;
+border-radius: 30px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 275px;
+height: 89px;
+left: 656px;
+top: 156px;
+
+background: #000000;
+border-radius: 30px;
+
+
+/* Urgentes */
+
+position: absolute;
+width: 162px;
+height: 36px;
+left: 412px;
+top: 181px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* Todos */
+
+position: absolute;
+width: 106px;
+height: 36px;
+left: 741px;
+top: 181px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 387px;
+height: 482px;
+left: 25px;
+top: 305px;
+
+background: #0E0557;
+border-radius: 25px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 386px;
+height: 482px;
+left: 447px;
+top: 305px;
+
+background: #0E0557;
+border-radius: 25px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 387px;
+height: 482px;
+left: 881px;
+top: 305px;
+
+background: #0E0557;
+border-radius: 25px;
+
+
+/* image 9 */
+
+position: absolute;
+width: 132px;
+height: 131px;
+left: 39px;
+top: 309px;
+
+background: url(image.png);
+
+
+/* Alface Crespa */
+
+position: absolute;
+width: 208px;
+height: 34px;
+left: 178px;
+top: 358px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+
+
+/* Tomate */
+
+position: absolute;
+width: 122.67px;
+height: 27.25px;
+left: 638px;
+top: 353.83px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+transform: rotate(-0.44deg);
+
+
+/* image 16 */
+
+position: absolute;
+width: 132px;
+height: 131px;
+left: 471px;
+top: 309px;
+
+background: url(image.png);
+
+
+/* Abacaxi */
+
+position: absolute;
+width: 121px;
+height: 40px;
+left: 1049px;
+top: 361px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+
+
+/* Colher em: 15/05 */
+
+position: absolute;
+width: 217px;
+height: 25px;
+left: 62px;
+top: 451px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Colher em: 25/05 */
+
+position: absolute;
+width: 214px;
+height: 26px;
+left: 533px;
+top: 501px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Colher em: 10/07 */
+
+position: absolute;
+width: 214px;
+height: 25px;
+left: 968px;
+top: 467px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 157px;
+height: 157px;
+left: 44px;
+top: 558px;
+
+background: url(image.png);
+
+
+/* Necessário regar */
+
+position: absolute;
+width: 149px;
+height: 54px;
+left: 219px;
+top: 600px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Pronto para colheita */
+
+position: absolute;
+width: 150px;
+height: 53px;
+left: 621px;
+top: 613px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Necessário Adubo */
+
+position: absolute;
+width: 164px;
+height: 54px;
+left: 1063px;
+top: 613px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* image 15 */
+
+position: absolute;
+width: 157px;
+height: 157px;
+left: 458px;
+top: 558px;
+
+background: url(image.png);
+
+
+/* image 17 */
+
+position: absolute;
+width: 132px;
+height: 131px;
+left: 903px;
+top: 309px;
+
+background: url(image.png);
+
+
+/* image 18 */
+
+position: absolute;
+width: 157px;
+height: 157px;
+left: 906px;
+top: 558px;
+
+background: url(image.png);
+
+
+/* image 19 */
+
+position: absolute;
+width: 113px;
+height: 112px;
+left: 955px;
+top: 133px;
+
+background: url(image.png);

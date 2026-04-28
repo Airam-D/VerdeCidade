@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HortaUrbana - VerdeCidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>HortaUrbana</h1>
+        </nav>
+    </header>
+
+    <section id="tela-lista">
+        <header>
+            <button type="button" aria-label="Voltar"><a href="dashboard.html">← Voltar</a></button>
+            <h2>Meus Canteiros</h2>
+            <div class="filtros">
+                <button type="button">Urgentes</button>
+                <button type="button">Todos</button>
+                <button type="button" aria-label="Adicionar novo"><a href="cadastrar_canteiro.html">+</a></button>
+            </div>
+        </header>
+
+        <ul id="lista-renderizada">
+            <li class="card">
+                <strong>Alface Crespa</strong>
+                <p>Colher em: 15/05</p>
+                <span>💧 Necessário regar</span>
+            </li>
+            <li class="card">
+                <strong>Tomate</strong>
+                <p>Colher em: 25/05</p>
+                <span>🧺 Pronto para colheita</span>
+            </li>
+            <li class="card">
+                <strong>Abacaxi</strong>
+                <p>Colher em: 10/07</p>
+                <span>🟤 Necessário Adubo</span>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>VerdeCidade - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

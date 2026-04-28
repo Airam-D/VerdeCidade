@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HortaUrbana - VerdeCidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>HortaUrbana</h1>
+        </nav>
+    </header>
+
+    <section id="tela-cadastro">
+        <header>
+            <button type="button" aria-label="Voltar"><a href="dashboard.html">← Voltar</a></button>
+            <h2>Cadastrar novo Canteiro</h2>
+        </header>
+
+        <form id="form-plantio">
+            <label for="nome-canteiro">Nome do Canteiro</label>
+            <input type="text" id="nome-canteiro" placeholder="Ex: Canteiro Norte">
+
+            <label for="tipo-hortalica">Tipo de Hortaliça</label>
+            <select id="tipo-hortalica">
+                <option value="" disabled selected>Selecione...</option>
+                <option value="alface">Alface (45 dias)</option>
+                <option value="tomate">Tomate (90 dias)</option>
+                <option value="abacaxi">Abacaxi</option>
+            </select>
+
+            <label for="data-plantio">Data do Plantio</label>
+            <input type="date" id="data-plantio">
+
+            <button type="submit"><a href="canteiros.html">CONFIRMAR PLANTIO</a></button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>VerdeCidade - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
