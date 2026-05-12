@@ -4,44 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HortaUrbana - VerdeCidade</title>
+    <title>HortaUrbana - Login</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
 </head>
 
-<body>
+<body class="corpo-login">
 
-    <header>
-        <nav>
-            <h1>HortaUrbana</h1>
-        </nav>
-    </header>
+    <main id="card-login-container">
+        <!-- Lado Esquerdo: Identidade -->
+        <section class="login-info">
+            <div class="logo-circle">🌱</div>
+            <h1 class="titulo-boas-vindas">Bem-vindo à <span>HortaUrbana</span></h1>
+            <p class="subtitulo">Sua horta na palma da mão.</p>
+        </section>
 
-    <section id="tela-login">
-        <header>
-            <h2>Bem Vindo à HortaUrbana</h2>
-            <p>Login</p>
-        </header>
+        <!-- Lado Direito: Formulário -->
+        <section class="login-form-area">
+            <h2 class="titulo-login">Login</h2>
 
-        <form>
-            <fieldset>
-                <legend>Identificação</legend>
-                <label for="login-email">Email:</label>
-                <input type="email" id="login-email" placeholder="Digite seu Email" required>
+            <form id="form-login">
+                <div class="campo-grupo">
+                    <label for="login-email">E-mail</label>
+                    <input type="email" id="login-email" placeholder="nome@email.com" required>
+                </div>
 
-                <label for="login-senha">Senha:</label>
-                <input type="password" id="login-senha" placeholder="Digite sua senha" required>
+                <div class="campo-grupo">
+                    <label for="login-senha">Senha</label>
+                    <input type="password" id="login-senha" placeholder="••••••••" required>
+                </div>
 
-                <button type="submit"><a href="dashboard.html">Entrar</a></button>
-            </fieldset>
-        </form>
-    </section>
-
-    <footer>
-        <p>VerdeCidade - 2026</p>
-    </footer>
+                <button type="button" class="btn-login-main" onclick="fazerLogin()">
+                    Acessar Painel
+                </button>
+            </form>
+        </section>
+    </main>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>

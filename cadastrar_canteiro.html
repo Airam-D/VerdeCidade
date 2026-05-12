@@ -4,50 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HortaUrbana - VerdeCidade</title>
+    <title>HortaUrbana - Novo Plantio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
 </head>
 
-<body>
+<body class="corpo-cadastro">
 
-    <header>
-        <nav>
-            <h1>HortaUrbana</h1>
-        </nav>
+    <header class="navbar-dashboard">
+        <div class="header-content">
+            <a href="dashboard.html" class="btn-voltar-topo">←</a>
+            <h1 class="logo-dashboard">Novo <span>Plantio</span></h1>
+            <div style="width: 50px;"></div> <!-- Equilíbrio visual -->
+        </div>
     </header>
 
-    <section id="tela-cadastro">
-        <header>
-            <button type="button" aria-label="Voltar"><a href="dashboard.html">← Voltar</a></button>
-            <h2>Cadastrar novo Canteiro</h2>
-        </header>
+    <main class="container-cadastro">
+        <section class="card-formulario">
+            <div class="form-header">
+                <h2>🌱 Informações do Cultivo</h2>
+                <p>Preencha os dados abaixo para iniciar o rastreio do seu canteiro.</p>
+            </div>
 
-        <form id="form-plantio">
-            <label for="nome-canteiro">Nome do Canteiro</label>
-            <input type="text" id="nome-canteiro" placeholder="Ex: Canteiro Norte">
+            <form id="form-plantio">
+                <!-- Adicione este bloco que está faltando -->
+                <div class="campo-grupo">
+                    <label for="nome_canteiro">Nome do Canteiro</label>
+                    <input type="text" id="nome_canteiro" placeholder="Ex: Canteiro Principal" required>
+                </div>
 
-            <label for="tipo-hortalica">Tipo de Hortaliça</label>
-            <select id="tipo-hortalica">
-                <option value="" disabled selected>Selecione...</option>
-                <option value="alface">Alface (45 dias)</option>
-                <option value="tomate">Tomate (90 dias)</option>
-                <option value="abacaxi">Abacaxi</option>
-            </select>
+                <div class="campo-grupo">
+                    <label for="data_plantio">Data do Plantio</label>
+                    <input type="date" id="data_plantio" required>
+                </div>
 
-            <label for="data-plantio">Data do Plantio</label>
-            <input type="date" id="data-plantio">
+                <div class="campo-linha">
+                    <div class="campo-grupo">
+                        <label for="tipo_hortalica">Hortaliça</label>
+                        <select id="tipo_hortalica" required>
+                            <option value="Alface">Alface (45 dias)</option>
+                            <option value="Tomate">Tomate (90 dias)</option>
+                        </select>
+                    </div>
+                    <div class="campo-grupo">
+                        <label for="area_canteiro">Área (M²)</label>
+                        <input type="number" id="area_canteiro" step="0.1" required>
+                    </div>
+                </div>
 
-            <button type="submit"><a href="canteiros.html">CONFIRMAR PLANTIO</a></button>
-        </form>
-    </section>
-
-
-    <footer>
-        <p>VerdeCidade - 2026</p>
-    </footer>
+                <button type="submit" class="btn-principal">Confirmar Plantio</button>
+            </form>
+        </section>
+    </main>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>

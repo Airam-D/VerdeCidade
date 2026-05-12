@@ -4,34 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HortaUrbana - VerdeCidade</title>
+    <title>HortaUrbana - Ver Mapa</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
 </head>
 
-<body>
+<body class="corpo-mapa">
 
-    <header>
-        <nav>
-            <h1>HortaUrbana</h1>
-        </nav>
+    <header class="navbar-dashboard">
+        <div class="header-content">
+            <a href="dashboard.html" class="btn-voltar-topo">←</a>
+            <h1 class="logo-dashboard">Ver <span>Mapa</span></h1>
+            <div style="width: 50px;"></div>
+        </div>
     </header>
 
-        <section id="tela-mapa">
-            <header>
-                <button type="button" aria-label="Voltar"><a href="dashboard.html">← Voltar</a></button>
-                <h2>Ver Mapa</h2>
-            </header>
-            <div id="mapa-container">
-                <p>Carregando mapa...</p>
+    <main class="container-mapa-full">
+        <section class="card-mapa">
+            <div id="mapa-placeholder-moderno">
+                <div class="info-mapa">
+                    <span>📍</span>
+                    <p>O mapa está sendo carregado...</p>
+                </div>
             </div>
         </section>
-
-    <footer>
-        <p>VerdeCidade - 2026</p>
-    </footer>
+    </main>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>

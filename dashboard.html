@@ -4,44 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HortaUrbana - VerdeCidade</title>
+    <title>HortaUrbana - Painel de Controle</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
 </head>
 
-<body>
+<body class="corpo-dashboard">
 
-    <header>
-        <nav>
-            <h1>HortaUrbana</h1>
-        </nav>
+    <header class="navbar-dashboard">
+        <div class="header-content">
+            <h1 class="logo-dashboard">🌱 Horta<span>Urbana</span></h1>
+            <a href="index.html" class="btn-sair-moderno">Sair</a>
+        </div>
     </header>
-    <button type="button" aria-label="Voltar"><a href="index.html">← Sair</a></button>
 
-    <section id="tela-dashboard">
-        <article class="alerta-urgencia">
-            <h2>ALERTA !!</h2>
-            <p>3 canteiros precisam de rega hoje!</p>
-        </article>
+    <main class="container-dashboard">
+        <!-- Card de Alerta Dinâmico -->
+        <section class="sessao-alerta">
+            <div class="card-alerta">
+                <div class="alerta-icone">⚠️</div>
+                <div class="alerta-texto">
+                    <h3>Status de Urgência</h3>
+                    <p>Existem <strong>3 canteiros</strong> que precisam de atenção hoje.</p>
+                </div>
+            </div>
+        </section>
 
-        <nav class="menu-principal">
-            <button type="button"><a href="mapa.html">
-                    <span>📍</span> Ver Mapa
-                </a></button>
-            <button type="button"><a href="cadastrar_canteiro.html">
-                    <span>🌱</span> Novo Plantio
-                </a></button>
-            <button type="button"><a href="canteiros.html">
-                    <span>📋</span> Lista de Canteiros
-                </a></button>
-        </nav>
-    </section>
+        <!-- Menu de Navegação em Grid -->
+        <section class="grid-navegacao">
+            <a href="mapa.html" class="card-menu">
+                <div class="circulo-icone azul">📍</div>
+                <h3>Ver Mapa</h3>
+                <p>Visualize sua horta no espaço urbano.</p>
+            </a>
 
-    <footer>
-        <p>VerdeCidade - 2026</p>
-    </footer>
+            <a href="cadastrar_canteiro.html" class="card-menu">
+                <div class="circulo-icone verde">🌱</div>
+                <h3>Novo Plantio</h3>
+                <p>Adicione uma nova vida ao seu canteiro.</p>
+            </a>
+
+            <a href="canteiros.html" class="card-menu">
+                <div class="circulo-icone marinho">📋</div>
+                <h3>Meus Canteiros</h3>
+                <p>Gerencie todos os seus plantios ativos.</p>
+            </a>
+        </section>
+    </main>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>

@@ -3,55 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HortaUrbana - VerdeCidade</title>
+    <title>HortaUrbana - Meus Canteiros</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
-    <header>
-        <nav>
-            <h1>HortaUrbana</h1>
-        </nav>
+<body class="corpo-lista">
+    <header class="navbar-dashboard">
+        <div class="header-content">
+            <a href="dashboard.html" class="btn-voltar-topo">←</a>
+            <h1 class="logo-dashboard">Meus <span>Canteiros</span></h1>
+            <a href="cadastrar_canteiro.html" class="btn-add-novo">+</a>
+        </div>
     </header>
 
-    <section id="tela-lista">
-        <header>
-            <button type="button" aria-label="Voltar"><a href="dashboard.html">← Voltar</a></button>
-            <h2>Meus Canteiros</h2>
-            <div class="filtros">
-                <button type="button">Urgentes</button>
-                <button type="button">Todos</button>
-                <button type="button" aria-label="Adicionar novo"><a href="cadastrar_canteiro.html">+</a></button>
+    <main class="container-lista">
+        <!-- Filtros Dinâmicos -->
+        <div class="filtros-container">
+            <button class="btn-filtro" onclick="renderizarCanteiros('urgente')">Urgentes</button>
+            <button class="btn-filtro" onclick="renderizarCanteiros('todos')">Todos</button>
+        </div>
+
+        <div id="lista-renderizada" class="grid-canteiros-referencia">
+            <!-- Cards injetados aqui -->
+        </div>
+    </main>
+
+    <footer class="footer-moderno">
+        <div class="footer-content">
+            <p>&copy; 2026 <strong>VerdeCidade</strong> - Cultivando o amanhã.</p>
+            <div class="footer-links">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Suporte</a>
             </div>
-        </header>
-
-        <ul id="lista-renderizada">
-            <li class="card">
-                <strong>Alface Crespa</strong>
-                <p>Colher em: 15/05</p>
-                <span>💧 Necessário regar</span>
-            </li>
-            <li class="card">
-                <strong>Tomate</strong>
-                <p>Colher em: 25/05</p>
-                <span>🧺 Pronto para colheita</span>
-            </li>
-            <li class="card">
-                <strong>Abacaxi</strong>
-                <p>Colher em: 10/07</p>
-                <span>🟤 Necessário Adubo</span>
-            </li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>VerdeCidade - 2026</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>
