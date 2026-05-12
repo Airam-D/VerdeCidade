@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('lista-renderizada')) {
         renderizarSaidaCanteiros();
     }
+
+    const btnEntrar = document.getElementById('btn-entrar-login');
+    if (btnEntrar) {
+        btnEntrar.addEventListener('click', fazerLogin);
+    }
+
 });
 
 // --- 2. CAMADA DE INTELIGÊNCIA (PROCESSAMENTO) ---
@@ -92,4 +98,28 @@ function removerCanteiro(id) {
     dados = dados.filter(d => d.id !== id);
     localStorage.setItem('canteiros', JSON.stringify(dados));
     renderizarSaidaCanteiros();
+}
+
+// --- FUNÇÃO DE LOGIN ---
+function fazerLogin() {
+    // Captura os inputs
+    const email = document.getElementById("login-email").value.trim();
+    const senha = document.getElementById("login-senha").value.trim();
+
+    // Validação de campos vazios (UI/UX para idosos: mensagens claras)
+    if (email === "" || senha === "") {
+        alert("⚠️ Por favor, preencha o seu e-mail e sua senha para entrar.");
+        return;
+    }
+
+    // Simulação de autenticação (Mínimo de 4 caracteres para senha)
+    if (senha.length < 4) {
+        alert("⚠️ A senha deve ter pelo menos 4 números ou letras.");
+        return;
+    }
+
+    // Se passar na validação, salva o status de login e redireciona
+    console.log("Login realizado com sucesso!");
+    localStorage.setItem('usuarioLogado', 'true'); // Opcional: para controle de acesso
+    window.location.href = "dashboard.html";
 }
